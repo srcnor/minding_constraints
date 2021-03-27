@@ -53,7 +53,7 @@ jobs:
         git add images/
         git add _notebooks/data/
         git add _notebooks/
-        git commit -m'[bot] refresh notebooks'
+        git commit -m'[bot] refresh notebooks' --allow-empty
         git push -f
 
     - name: convert notebooks and word docs to posts
