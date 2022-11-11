@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Evolving Election Uncertainty Pt. II | Minding Constraints</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Evolving Election Uncertainty Pt. II" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Data, Economics, et cetera" />
+<meta property="og:description" content="Data, Economics, et cetera" />
+<link rel="canonical" href="https://mindingconstraints.com/2020/11/20/election-uncertainty-ii.html" />
+<meta property="og:url" content="https://mindingconstraints.com/2020/11/20/election-uncertainty-ii.html" />
+<meta property="og:site_name" content="Minding Constraints" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-11-20T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://mindingconstraints.com/2020/11/20/election-uncertainty-ii.html","@type":"BlogPosting","headline":"Evolving Election Uncertainty Pt. II","dateModified":"2020-11-20T00:00:00-06:00","datePublished":"2020-11-20T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://mindingconstraints.com/2020/11/20/election-uncertainty-ii.html"},"description":"Data, Economics, et cetera","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://mindingconstraints.com/feed.xml" title="Minding Constraints" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Minding Constraints</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Evolving Election Uncertainty Pt. II</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-11-20T00:00:00-06:00" itemprop="datePublished">
+        Nov 20, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/srcnor/minding_constraints/tree/master/_notebooks/2020-11-20-election-uncertainty-ii.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/srcnor/minding_constraints/master?filepath=_notebooks%2F2020-11-20-election-uncertainty-ii.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/srcnor/minding_constraints/blob/master/_notebooks/2020-11-20-election-uncertainty-ii.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-11-20-election-uncertainty-ii.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In our <a href="http://mindingconstraints.com/2020/10/30/election-uncertainty.html">last post</a>, we looked at how the implied presidential election probabilities on PredictIt showed a distinct persistence throughout the presidential campaign, despite the fact that uncertainty about a future event should generally decline as the event itself approaches.</p>
+<p>On election night itself, PredictIt shook off that persistence.</p>
+<p>Well actually on election night <em>itself</em> PredictIt mostly buckled under the weight of all of the traders attempting to get in on the action:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+
+<div id="altair-viz-249dca22565c415fad903cd7a624f5d5"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-249dca22565c415fad903cd7a624f5d5") {
+      outputDiv = document.getElementById("altair-viz-249dca22565c415fad903cd7a624f5d5");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"usermeta": {"embedOptions": {"theme": "fivethirtyeight"}}, "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-236adfd9978deba0b30213a9326e279e"}, "mark": {"type": "bar", "color": "rgb(74,82,90"}, "encoding": {"tooltip": [{"type": "temporal", "field": "Date"}, {"type": "temporal", "field": "Date", "timeUnit": "hours"}, {"type": "quantitative", "field": "TradeVolume"}], "x": {"type": "temporal", "axis": {"title": ""}, "field": "Date"}, "y": {"type": "quantitative", "axis": {"title": "Shares Traded"}, "field": "TradeVolume"}}, "title": "PredictIt Presidential Market Trading Volume", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-236adfd9978deba0b30213a9326e279e": [{"Date": "2020-11-03T18:00:00", "TradeVolume": 38767, "Win Probability": 1.06}, {"Date": "2020-11-03T19:00:00", "TradeVolume": 33308, "Win Probability": 1.07}, {"Date": "2020-11-03T20:00:00", "TradeVolume": 33789, "Win Probability": 1.07}, {"Date": "2020-11-03T21:00:00", "TradeVolume": 29531, "Win Probability": 1.06}, {"Date": "2020-11-03T22:00:00", "TradeVolume": 32692, "Win Probability": 1.09}, {"Date": "2020-11-03T23:00:00", "TradeVolume": 31520, "Win Probability": 1.08}, {"Date": "2020-11-04T00:00:00", "TradeVolume": 46019, "Win Probability": 1.1}, {"Date": "2020-11-04T01:00:00", "TradeVolume": 888, "Win Probability": 1.11}, {"Date": "2020-11-04T02:00:00", "TradeVolume": 2127, "Win Probability": 1.11}, {"Date": "2020-11-04T03:00:00", "TradeVolume": 7006, "Win Probability": 1.11}, {"Date": "2020-11-04T04:00:00", "TradeVolume": 206874, "Win Probability": 1.02}, {"Date": "2020-11-04T05:00:00", "TradeVolume": 53072, "Win Probability": 1.01}, {"Date": "2020-11-04T06:00:00", "TradeVolume": 30952, "Win Probability": 1.08}, {"Date": "2020-11-04T07:00:00", "TradeVolume": 38223, "Win Probability": 1.07}, {"Date": "2020-11-04T08:00:00", "TradeVolume": 149535, "Win Probability": 1.02}, {"Date": "2020-11-04T09:00:00", "TradeVolume": 97186, "Win Probability": 1.04}, {"Date": "2020-11-04T10:00:00", "TradeVolume": 77, "Win Probability": 1.02}, {"Date": "2020-11-04T11:00:00", "TradeVolume": 101782, "Win Probability": 1.06}, {"Date": "2020-11-04T12:00:00", "TradeVolume": 99091, "Win Probability": 1.0899999999999999}, {"Date": "2020-11-04T13:00:00", "TradeVolume": 124952, "Win Probability": 1.07}, {"Date": "2020-11-04T14:00:00", "TradeVolume": 109234, "Win Probability": 1.08}, {"Date": "2020-11-04T15:00:00", "TradeVolume": 162968, "Win Probability": 1.04}, {"Date": "2020-11-04T16:00:00", "TradeVolume": 125551, "Win Probability": 1.06}, {"Date": "2020-11-04T17:00:00", "TradeVolume": 100166, "Win Probability": 1.03}, {"Date": "2020-11-04T20:00:00", "TradeVolume": 65621, "Win Probability": 1.04}, {"Date": "2020-11-04T21:00:00", "TradeVolume": 54435, "Win Probability": 1.03}, {"Date": "2020-11-04T22:00:00", "TradeVolume": 7135, "Win Probability": 1.03}, {"Date": "2020-11-04T23:00:00", "TradeVolume": 78850, "Win Probability": 1.01}, {"Date": "2020-11-05T00:00:00", "TradeVolume": 66132, "Win Probability": 1.05}, {"Date": "2020-11-05T01:00:00", "TradeVolume": 44187, "Win Probability": 1.0}, {"Date": "2020-11-05T02:00:00", "TradeVolume": 30459, "Win Probability": 1.02}, {"Date": "2020-11-05T03:00:00", "TradeVolume": 40620, "Win Probability": 1.0}, {"Date": "2020-11-05T04:00:00", "TradeVolume": 37721, "Win Probability": 1.02}, {"Date": "2020-11-05T05:00:00", "TradeVolume": 29261, "Win Probability": 1.06}, {"Date": "2020-11-05T06:00:00", "TradeVolume": 15823, "Win Probability": 1.05}, {"Date": "2020-11-05T07:00:00", "TradeVolume": 11709, "Win Probability": 1.03}, {"Date": "2020-11-05T08:00:00", "TradeVolume": 9803, "Win Probability": 1.06}, {"Date": "2020-11-05T09:00:00", "TradeVolume": 6161, "Win Probability": 1.06}, {"Date": "2020-11-05T10:00:00", "TradeVolume": 0, "Win Probability": 1.06}, {"Date": "2020-11-05T11:00:00", "TradeVolume": 5707, "Win Probability": 1.03}, {"Date": "2020-11-05T12:00:00", "TradeVolume": 4166, "Win Probability": 1.04}, {"Date": "2020-11-05T13:00:00", "TradeVolume": 9465, "Win Probability": 1.07}, {"Date": "2020-11-05T14:00:00", "TradeVolume": 12539, "Win Probability": 1.0699999999999998}, {"Date": "2020-11-05T15:00:00", "TradeVolume": 21534, "Win Probability": 1.02}, {"Date": "2020-11-05T16:00:00", "TradeVolume": 24827, "Win Probability": 1.05}, {"Date": "2020-11-05T17:00:00", "TradeVolume": 19507, "Win Probability": 1.05}, {"Date": "2020-11-05T18:00:00", "TradeVolume": 22327, "Win Probability": 1.04}, {"Date": "2020-11-05T19:00:00", "TradeVolume": 20495, "Win Probability": 1.05}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The biggest event of election night was the calling of Florida for Trump, which occurred just before midnight Eastern Time. Traders promptly flooded the market and caused an outage at PredictIt. When the site came back online around 4AM there was significant pent up demand and volume surged. <em>Then</em> the presidential probabilities shook off their persistence:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+
+<div id="altair-viz-a87e5fc2a0d04c789488f89bc1534884"></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-a87e5fc2a0d04c789488f89bc1534884") {
+      outputDiv = document.getElementById("altair-viz-a87e5fc2a0d04c789488f89bc1534884");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"usermeta": {"embedOptions": {"theme": "fivethirtyeight"}}, "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-54c9cfb9ff8af82d32c0e4c5edf280e1"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "Candidate"}, "tooltip": [{"type": "temporal", "field": "Date"}, {"type": "temporal", "field": "Date", "timeUnit": "hours"}, {"type": "quantitative", "field": "Win Probability"}, {"type": "nominal", "field": "Candidate"}], "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "Win Probability", "scale": {"domain": [0, 1]}}}, "title": "PredictIt Presidential Probabilites", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-54c9cfb9ff8af82d32c0e4c5edf280e1": [{"ContractName": "Biden", "Date": "2020-11-03T18:00:00", "OpenSharePrice": "$0.64", "HighSharePrice": "$0.66", "LowSharePrice": "$0.64", "CloseSharePrice": "$0.65", "TradeVolume": 16439, "Candidate": "Biden", "Win Probability": 0.65}, {"ContractName": "Trump", "Date": "2020-11-03T18:00:00", "OpenSharePrice": "$0.42", "HighSharePrice": "$0.43", "LowSharePrice": "$0.40", "CloseSharePrice": "$0.41", "TradeVolume": 22328, "Candidate": "Trump", "Win Probability": 0.41}, {"ContractName": "Biden", "Date": "2020-11-03T19:00:00", "OpenSharePrice": "$0.65", "HighSharePrice": "$0.67", "LowSharePrice": "$0.64", "CloseSharePrice": "$0.65", "TradeVolume": 14174, "Candidate": "Biden", "Win Probability": 0.65}, {"ContractName": "Trump", "Date": "2020-11-03T19:00:00", "OpenSharePrice": "$0.41", "HighSharePrice": "$0.43", "LowSharePrice": "$0.40", "CloseSharePrice": "$0.42", "TradeVolume": 19134, "Candidate": "Trump", "Win Probability": 0.42}, {"ContractName": "Biden", "Date": "2020-11-03T20:00:00", "OpenSharePrice": "$0.65", "HighSharePrice": "$0.67", "LowSharePrice": "$0.65", "CloseSharePrice": "$0.66", "TradeVolume": 16454, "Candidate": "Biden", "Win Probability": 0.66}, {"ContractName": "Trump", "Date": "2020-11-03T20:00:00", "OpenSharePrice": "$0.42", "HighSharePrice": "$0.43", "LowSharePrice": "$0.41", "CloseSharePrice": "$0.41", "TradeVolume": 17335, "Candidate": "Trump", "Win Probability": 0.41}, {"ContractName": "Biden", "Date": "2020-11-03T21:00:00", "OpenSharePrice": "$0.66", "HighSharePrice": "$0.67", "LowSharePrice": "$0.65", "CloseSharePrice": "$0.66", "TradeVolume": 12351, "Candidate": "Biden", "Win Probability": 0.66}, {"ContractName": "Trump", "Date": "2020-11-03T21:00:00", "OpenSharePrice": "$0.41", "HighSharePrice": "$0.43", "LowSharePrice": "$0.40", "CloseSharePrice": "$0.40", "TradeVolume": 17180, "Candidate": "Trump", "Win Probability": 0.4}, {"ContractName": "Biden", "Date": "2020-11-03T22:00:00", "OpenSharePrice": "$0.66", "HighSharePrice": "$0.68", "LowSharePrice": "$0.65", "CloseSharePrice": "$0.67", "TradeVolume": 14862, "Candidate": "Biden", "Win Probability": 0.67}, {"ContractName": "Trump", "Date": "2020-11-03T22:00:00", "OpenSharePrice": "$0.40", "HighSharePrice": "$0.42", "LowSharePrice": "$0.40", "CloseSharePrice": "$0.42", "TradeVolume": 17830, "Candidate": "Trump", "Win Probability": 0.42}, {"ContractName": "Biden", "Date": "2020-11-03T23:00:00", "OpenSharePrice": "$0.67", "HighSharePrice": "$0.69", "LowSharePrice": "$0.67", "CloseSharePrice": "$0.68", "TradeVolume": 12122, "Candidate": "Biden", "Win Probability": 0.68}, {"ContractName": "Trump", "Date": "2020-11-03T23:00:00", "OpenSharePrice": "$0.42", "HighSharePrice": "$0.42", "LowSharePrice": "$0.39", "CloseSharePrice": "$0.40", "TradeVolume": 19398, "Candidate": "Trump", "Win Probability": 0.4}, {"ContractName": "Biden", "Date": "2020-11-04T00:00:00", "OpenSharePrice": "$0.68", "HighSharePrice": "$0.71", "LowSharePrice": "$0.67", "CloseSharePrice": "$0.68", "TradeVolume": 19739, "Candidate": "Biden", "Win Probability": 0.68}, {"ContractName": "Trump", "Date": "2020-11-04T00:00:00", "OpenSharePrice": "$0.40", "HighSharePrice": "$0.43", "LowSharePrice": "$0.36", "CloseSharePrice": "$0.42", "TradeVolume": 26280, "Candidate": "Trump", "Win Probability": 0.42}, {"ContractName": "Biden", "Date": "2020-11-04T01:00:00", "OpenSharePrice": "$0.68", "HighSharePrice": "$0.68", "LowSharePrice": "$0.68", "CloseSharePrice": "$0.68", "TradeVolume": 52, "Candidate": "Biden", "Win Probability": 0.68}, {"ContractName": "Trump", "Date": "2020-11-04T01:00:00", "OpenSharePrice": "$0.42", "HighSharePrice": "$0.43", "LowSharePrice": "$0.40", "CloseSharePrice": "$0.43", "TradeVolume": 836, "Candidate": "Trump", "Win Probability": 0.43}, {"ContractName": "Biden", "Date": "2020-11-04T02:00:00", "OpenSharePrice": "$0.68", "HighSharePrice": "$0.69", "LowSharePrice": "$0.68", "CloseSharePrice": "$0.68", "TradeVolume": 2016, "Candidate": "Biden", "Win Probability": 0.68}, {"ContractName": "Trump", "Date": "2020-11-04T02:00:00", "OpenSharePrice": "$0.43", "HighSharePrice": "$0.43", "LowSharePrice": "$0.42", "CloseSharePrice": "$0.43", "TradeVolume": 111, "Candidate": "Trump", "Win Probability": 0.43}, {"ContractName": "Biden", "Date": "2020-11-04T03:00:00", "OpenSharePrice": "$0.68", "HighSharePrice": "$0.69", "LowSharePrice": "$0.67", "CloseSharePrice": "$0.67", "TradeVolume": 3322, "Candidate": "Biden", "Win Probability": 0.67}, {"ContractName": "Trump", "Date": "2020-11-04T03:00:00", "OpenSharePrice": "$0.43", "HighSharePrice": "$0.44", "LowSharePrice": "$0.43", "CloseSharePrice": "$0.44", "TradeVolume": 3684, "Candidate": "Trump", "Win Probability": 0.44}, {"ContractName": "Biden", "Date": "2020-11-04T04:00:00", "OpenSharePrice": "$0.67", "HighSharePrice": "$0.67", "LowSharePrice": "$0.15", "CloseSharePrice": "$0.38", "TradeVolume": 81337, "Candidate": "Biden", "Win Probability": 0.38}, {"ContractName": "Trump", "Date": "2020-11-04T04:00:00", "OpenSharePrice": "$0.44", "HighSharePrice": "$0.85", "LowSharePrice": "$0.44", "CloseSharePrice": "$0.64", "TradeVolume": 125537, "Candidate": "Trump", "Win Probability": 0.64}, {"ContractName": "Biden", "Date": "2020-11-04T05:00:00", "OpenSharePrice": "$0.38", "HighSharePrice": "$0.43", "LowSharePrice": "$0.34", "CloseSharePrice": "$0.42", "TradeVolume": 19244, "Candidate": "Biden", "Win Probability": 0.42}, {"ContractName": "Trump", "Date": "2020-11-04T05:00:00", "OpenSharePrice": "$0.64", "HighSharePrice": "$0.69", "LowSharePrice": "$0.59", "CloseSharePrice": "$0.59", "TradeVolume": 33828, "Candidate": "Trump", "Win Probability": 0.59}, {"ContractName": "Biden", "Date": "2020-11-04T06:00:00", "OpenSharePrice": "$0.42", "HighSharePrice": "$0.42", "LowSharePrice": "$0.34", "CloseSharePrice": "$0.39", "TradeVolume": 9861, "Candidate": "Biden", "Win Probability": 0.39}, {"ContractName": "Trump", "Date": "2020-11-04T06:00:00", "OpenSharePrice": "$0.59", "HighSharePrice": "$0.70", "LowSharePrice": "$0.58", "CloseSharePrice": "$0.69", "TradeVolume": 21091, "Candidate": "Trump", "Win Probability": 0.69}, {"ContractName": "Biden", "Date": "2020-11-04T07:00:00", "OpenSharePrice": "$0.39", "HighSharePrice": "$0.56", "LowSharePrice": "$0.35", "CloseSharePrice": "$0.51", "TradeVolume": 19472, "Candidate": "Biden", "Win Probability": 0.51}, {"ContractName": "Trump", "Date": "2020-11-04T07:00:00", "OpenSharePrice": "$0.69", "HighSharePrice": "$0.70", "LowSharePrice": "$0.53", "CloseSharePrice": "$0.56", "TradeVolume": 18751, "Candidate": "Trump", "Win Probability": 0.56}, {"ContractName": "Biden", "Date": "2020-11-04T08:00:00", "OpenSharePrice": "$0.51", "HighSharePrice": "$0.52", "LowSharePrice": "$0.34", "CloseSharePrice": "$0.39", "TradeVolume": 58497, "Candidate": "Biden", "Win Probability": 0.39}, {"ContractName": "Trump", "Date": "2020-11-04T08:00:00", "OpenSharePrice": "$0.56", "HighSharePrice": "$0.74", "LowSharePrice": "$0.49", "CloseSharePrice": "$0.63", "TradeVolume": 91038, "Candidate": "Trump", "Win Probability": 0.63}, {"ContractName": "Biden", "Date": "2020-11-04T09:00:00", "OpenSharePrice": "$0.39", "HighSharePrice": "$0.40", "LowSharePrice": "$0.30", "CloseSharePrice": "$0.32", "TradeVolume": 40646, "Candidate": "Biden", "Win Probability": 0.32}, {"ContractName": "Trump", "Date": "2020-11-04T09:00:00", "OpenSharePrice": "$0.63", "HighSharePrice": "$0.76", "LowSharePrice": "$0.63", "CloseSharePrice": "$0.72", "TradeVolume": 56540, "Candidate": "Trump", "Win Probability": 0.72}, {"ContractName": "Biden", "Date": "2020-11-04T10:00:00", "OpenSharePrice": "$0.32", "HighSharePrice": "$0.32", "LowSharePrice": "$0.30", "CloseSharePrice": "$0.30", "TradeVolume": 1, "Candidate": "Biden", "Win Probability": 0.3}, {"ContractName": "Trump", "Date": "2020-11-04T10:00:00", "OpenSharePrice": "$0.72", "HighSharePrice": "$0.76", "LowSharePrice": "$0.72", "CloseSharePrice": "$0.72", "TradeVolume": 76, "Candidate": "Trump", "Win Probability": 0.72}, {"ContractName": "Biden", "Date": "2020-11-04T11:00:00", "OpenSharePrice": "$0.30", "HighSharePrice": "$0.72", "LowSharePrice": "$0.30", "CloseSharePrice": "$0.63", "TradeVolume": 48696, "Candidate": "Biden", "Win Probability": 0.63}, {"ContractName": "Trump", "Date": "2020-11-04T11:00:00", "OpenSharePrice": "$0.72", "HighSharePrice": "$0.72", "LowSharePrice": "$0.40", "CloseSharePrice": "$0.43", "TradeVolume": 53086, "Candidate": "Trump", "Win Probability": 0.43}, {"ContractName": "Biden", "Date": "2020-11-04T12:00:00", "OpenSharePrice": "$0.63", "HighSharePrice": "$0.80", "LowSharePrice": "$0.55", "CloseSharePrice": "$0.73", "TradeVolume": 42770, "Candidate": "Biden", "Win Probability": 0.73}, {"ContractName": "Trump", "Date": "2020-11-04T12:00:00", "OpenSharePrice": "$0.43", "HighSharePrice": "$0.46", "LowSharePrice": "$0.34", "CloseSharePrice": "$0.36", "TradeVolume": 56321, "Candidate": "Trump", "Win Probability": 0.36}, {"ContractName": "Biden", "Date": "2020-11-04T13:00:00", "OpenSharePrice": "$0.73", "HighSharePrice": "$0.85", "LowSharePrice": "$0.71", "CloseSharePrice": "$0.77", "TradeVolume": 53728, "Candidate": "Biden", "Win Probability": 0.77}, {"ContractName": "Trump", "Date": "2020-11-04T13:00:00", "OpenSharePrice": "$0.36", "HighSharePrice": "$0.38", "LowSharePrice": "$0.19", "CloseSharePrice": "$0.30", "TradeVolume": 71224, "Candidate": "Trump", "Win Probability": 0.3}, {"ContractName": "Biden", "Date": "2020-11-04T14:00:00", "OpenSharePrice": "$0.77", "HighSharePrice": "$0.82", "LowSharePrice": "$0.72", "CloseSharePrice": "$0.77", "TradeVolume": 56105, "Candidate": "Biden", "Win Probability": 0.77}, {"ContractName": "Trump", "Date": "2020-11-04T14:00:00", "OpenSharePrice": "$0.30", "HighSharePrice": "$0.37", "LowSharePrice": "$0.20", "CloseSharePrice": "$0.31", "TradeVolume": 53129, "Candidate": "Trump", "Win Probability": 0.31}, {"ContractName": "Biden", "Date": "2020-11-04T15:00:00", "OpenSharePrice": "$0.77", "HighSharePrice": "$0.89", "LowSharePrice": "$0.76", "CloseSharePrice": "$0.85", "TradeVolume": 66013, "Candidate": "Biden", "Win Probability": 0.85}, {"ContractName": "Trump", "Date": "2020-11-04T15:00:00", "OpenSharePrice": "$0.31", "HighSharePrice": "$0.33", "LowSharePrice": "$0.14", "CloseSharePrice": "$0.19", "TradeVolume": 96955, "Candidate": "Trump", "Win Probability": 0.19}, {"ContractName": "Biden", "Date": "2020-11-04T16:00:00", "OpenSharePrice": "$0.85", "HighSharePrice": "$0.87", "LowSharePrice": "$0.81", "CloseSharePrice": "$0.86", "TradeVolume": 43334, "Candidate": "Biden", "Win Probability": 0.86}, {"ContractName": "Trump", "Date": "2020-11-04T16:00:00", "OpenSharePrice": "$0.19", "HighSharePrice": "$0.23", "LowSharePrice": "$0.13", "CloseSharePrice": "$0.20", "TradeVolume": 82217, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-04T17:00:00", "OpenSharePrice": "$0.86", "HighSharePrice": "$0.87", "LowSharePrice": "$0.74", "CloseSharePrice": "$0.82", "TradeVolume": 49003, "Candidate": "Biden", "Win Probability": 0.82}, {"ContractName": "Trump", "Date": "2020-11-04T17:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.25", "LowSharePrice": "$0.17", "CloseSharePrice": "$0.21", "TradeVolume": 51163, "Candidate": "Trump", "Win Probability": 0.21}, {"ContractName": "Biden", "Date": "2020-11-04T20:00:00", "OpenSharePrice": "$0.81", "HighSharePrice": "$0.84", "LowSharePrice": "$0.78", "CloseSharePrice": "$0.84", "TradeVolume": 28947, "Candidate": "Biden", "Win Probability": 0.84}, {"ContractName": "Trump", "Date": "2020-11-04T20:00:00", "OpenSharePrice": "$0.25", "HighSharePrice": "$0.28", "LowSharePrice": "$0.20", "CloseSharePrice": "$0.20", "TradeVolume": 36674, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-04T21:00:00", "OpenSharePrice": "$0.84", "HighSharePrice": "$0.85", "LowSharePrice": "$0.81", "CloseSharePrice": "$0.84", "TradeVolume": 25634, "Candidate": "Biden", "Win Probability": 0.84}, {"ContractName": "Trump", "Date": "2020-11-04T21:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.26", "LowSharePrice": "$0.18", "CloseSharePrice": "$0.19", "TradeVolume": 28801, "Candidate": "Trump", "Win Probability": 0.19}, {"ContractName": "Biden", "Date": "2020-11-04T22:00:00", "OpenSharePrice": "$0.84", "HighSharePrice": "$0.85", "LowSharePrice": "$0.84", "CloseSharePrice": "$0.85", "TradeVolume": 2247, "Candidate": "Biden", "Win Probability": 0.85}, {"ContractName": "Trump", "Date": "2020-11-04T22:00:00", "OpenSharePrice": "$0.19", "HighSharePrice": "$0.19", "LowSharePrice": "$0.17", "CloseSharePrice": "$0.18", "TradeVolume": 4888, "Candidate": "Trump", "Win Probability": 0.18}, {"ContractName": "Biden", "Date": "2020-11-04T23:00:00", "OpenSharePrice": "$0.85", "HighSharePrice": "$0.89", "LowSharePrice": "$0.84", "CloseSharePrice": "$0.88", "TradeVolume": 26739, "Candidate": "Biden", "Win Probability": 0.88}, {"ContractName": "Trump", "Date": "2020-11-04T23:00:00", "OpenSharePrice": "$0.18", "HighSharePrice": "$0.18", "LowSharePrice": "$0.11", "CloseSharePrice": "$0.13", "TradeVolume": 52111, "Candidate": "Trump", "Win Probability": 0.13}, {"ContractName": "Biden", "Date": "2020-11-05T00:00:00", "OpenSharePrice": "$0.88", "HighSharePrice": "$0.89", "LowSharePrice": "$0.85", "CloseSharePrice": "$0.88", "TradeVolume": 28636, "Candidate": "Biden", "Win Probability": 0.88}, {"ContractName": "Trump", "Date": "2020-11-05T00:00:00", "OpenSharePrice": "$0.13", "HighSharePrice": "$0.19", "LowSharePrice": "$0.11", "CloseSharePrice": "$0.17", "TradeVolume": 37496, "Candidate": "Trump", "Win Probability": 0.17}, {"ContractName": "Biden", "Date": "2020-11-05T01:00:00", "OpenSharePrice": "$0.88", "HighSharePrice": "$0.90", "LowSharePrice": "$0.85", "CloseSharePrice": "$0.87", "TradeVolume": 21072, "Candidate": "Biden", "Win Probability": 0.87}, {"ContractName": "Trump", "Date": "2020-11-05T01:00:00", "OpenSharePrice": "$0.17", "HighSharePrice": "$0.18", "LowSharePrice": "$0.11", "CloseSharePrice": "$0.13", "TradeVolume": 23115, "Candidate": "Trump", "Win Probability": 0.13}, {"ContractName": "Biden", "Date": "2020-11-05T02:00:00", "OpenSharePrice": "$0.87", "HighSharePrice": "$0.90", "LowSharePrice": "$0.85", "CloseSharePrice": "$0.88", "TradeVolume": 11009, "Candidate": "Biden", "Win Probability": 0.88}, {"ContractName": "Trump", "Date": "2020-11-05T02:00:00", "OpenSharePrice": "$0.13", "HighSharePrice": "$0.20", "LowSharePrice": "$0.12", "CloseSharePrice": "$0.14", "TradeVolume": 19450, "Candidate": "Trump", "Win Probability": 0.14}, {"ContractName": "Biden", "Date": "2020-11-05T03:00:00", "OpenSharePrice": "$0.88", "HighSharePrice": "$0.90", "LowSharePrice": "$0.85", "CloseSharePrice": "$0.85", "TradeVolume": 21446, "Candidate": "Biden", "Win Probability": 0.85}, {"ContractName": "Trump", "Date": "2020-11-05T03:00:00", "OpenSharePrice": "$0.14", "HighSharePrice": "$0.20", "LowSharePrice": "$0.12", "CloseSharePrice": "$0.15", "TradeVolume": 19174, "Candidate": "Trump", "Win Probability": 0.15}, {"ContractName": "Biden", "Date": "2020-11-05T04:00:00", "OpenSharePrice": "$0.85", "HighSharePrice": "$0.88", "LowSharePrice": "$0.84", "CloseSharePrice": "$0.85", "TradeVolume": 20791, "Candidate": "Biden", "Win Probability": 0.85}, {"ContractName": "Trump", "Date": "2020-11-05T04:00:00", "OpenSharePrice": "$0.15", "HighSharePrice": "$0.18", "LowSharePrice": "$0.12", "CloseSharePrice": "$0.17", "TradeVolume": 16930, "Candidate": "Trump", "Win Probability": 0.17}, {"ContractName": "Biden", "Date": "2020-11-05T05:00:00", "OpenSharePrice": "$0.85", "HighSharePrice": "$0.88", "LowSharePrice": "$0.85", "CloseSharePrice": "$0.87", "TradeVolume": 11997, "Candidate": "Biden", "Win Probability": 0.87}, {"ContractName": "Trump", "Date": "2020-11-05T05:00:00", "OpenSharePrice": "$0.17", "HighSharePrice": "$0.22", "LowSharePrice": "$0.12", "CloseSharePrice": "$0.19", "TradeVolume": 17264, "Candidate": "Trump", "Win Probability": 0.19}, {"ContractName": "Biden", "Date": "2020-11-05T06:00:00", "OpenSharePrice": "$0.87", "HighSharePrice": "$0.87", "LowSharePrice": "$0.86", "CloseSharePrice": "$0.87", "TradeVolume": 6163, "Candidate": "Biden", "Win Probability": 0.87}, {"ContractName": "Trump", "Date": "2020-11-05T06:00:00", "OpenSharePrice": "$0.19", "HighSharePrice": "$0.22", "LowSharePrice": "$0.14", "CloseSharePrice": "$0.18", "TradeVolume": 9660, "Candidate": "Trump", "Win Probability": 0.18}, {"ContractName": "Biden", "Date": "2020-11-05T07:00:00", "OpenSharePrice": "$0.87", "HighSharePrice": "$0.87", "LowSharePrice": "$0.84", "CloseSharePrice": "$0.84", "TradeVolume": 5518, "Candidate": "Biden", "Win Probability": 0.84}, {"ContractName": "Trump", "Date": "2020-11-05T07:00:00", "OpenSharePrice": "$0.18", "HighSharePrice": "$0.21", "LowSharePrice": "$0.15", "CloseSharePrice": "$0.19", "TradeVolume": 6191, "Candidate": "Trump", "Win Probability": 0.19}, {"ContractName": "Biden", "Date": "2020-11-05T08:00:00", "OpenSharePrice": "$0.84", "HighSharePrice": "$0.86", "LowSharePrice": "$0.84", "CloseSharePrice": "$0.86", "TradeVolume": 4257, "Candidate": "Biden", "Win Probability": 0.86}, {"ContractName": "Trump", "Date": "2020-11-05T08:00:00", "OpenSharePrice": "$0.19", "HighSharePrice": "$0.24", "LowSharePrice": "$0.17", "CloseSharePrice": "$0.20", "TradeVolume": 5546, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-05T09:00:00", "OpenSharePrice": "$0.86", "HighSharePrice": "$0.87", "LowSharePrice": "$0.85", "CloseSharePrice": "$0.86", "TradeVolume": 2985, "Candidate": "Biden", "Win Probability": 0.86}, {"ContractName": "Trump", "Date": "2020-11-05T09:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.23", "LowSharePrice": "$0.16", "CloseSharePrice": "$0.20", "TradeVolume": 3176, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-05T10:00:00", "OpenSharePrice": "$0.86", "HighSharePrice": "$0.86", "LowSharePrice": "$0.86", "CloseSharePrice": "$0.86", "TradeVolume": 0, "Candidate": "Biden", "Win Probability": 0.86}, {"ContractName": "Trump", "Date": "2020-11-05T10:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.20", "LowSharePrice": "$0.20", "CloseSharePrice": "$0.20", "TradeVolume": 0, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-05T11:00:00", "OpenSharePrice": "$0.86", "HighSharePrice": "$0.87", "LowSharePrice": "$0.84", "CloseSharePrice": "$0.84", "TradeVolume": 2967, "Candidate": "Biden", "Win Probability": 0.84}, {"ContractName": "Trump", "Date": "2020-11-05T11:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.21", "LowSharePrice": "$0.15", "CloseSharePrice": "$0.19", "TradeVolume": 2740, "Candidate": "Trump", "Win Probability": 0.19}, {"ContractName": "Biden", "Date": "2020-11-05T12:00:00", "OpenSharePrice": "$0.84", "HighSharePrice": "$0.86", "LowSharePrice": "$0.83", "CloseSharePrice": "$0.84", "TradeVolume": 1171, "Candidate": "Biden", "Win Probability": 0.84}, {"ContractName": "Trump", "Date": "2020-11-05T12:00:00", "OpenSharePrice": "$0.19", "HighSharePrice": "$0.22", "LowSharePrice": "$0.19", "CloseSharePrice": "$0.20", "TradeVolume": 2995, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-05T13:00:00", "OpenSharePrice": "$0.84", "HighSharePrice": "$0.87", "LowSharePrice": "$0.83", "CloseSharePrice": "$0.87", "TradeVolume": 5973, "Candidate": "Biden", "Win Probability": 0.87}, {"ContractName": "Trump", "Date": "2020-11-05T13:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.22", "LowSharePrice": "$0.17", "CloseSharePrice": "$0.20", "TradeVolume": 3492, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-05T14:00:00", "OpenSharePrice": "$0.87", "HighSharePrice": "$0.87", "LowSharePrice": "$0.82", "CloseSharePrice": "$0.82", "TradeVolume": 6727, "Candidate": "Biden", "Win Probability": 0.82}, {"ContractName": "Trump", "Date": "2020-11-05T14:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.25", "LowSharePrice": "$0.15", "CloseSharePrice": "$0.25", "TradeVolume": 5812, "Candidate": "Trump", "Win Probability": 0.25}, {"ContractName": "Biden", "Date": "2020-11-05T15:00:00", "OpenSharePrice": "$0.82", "HighSharePrice": "$0.87", "LowSharePrice": "$0.82", "CloseSharePrice": "$0.86", "TradeVolume": 14080, "Candidate": "Biden", "Win Probability": 0.86}, {"ContractName": "Trump", "Date": "2020-11-05T15:00:00", "OpenSharePrice": "$0.25", "HighSharePrice": "$0.25", "LowSharePrice": "$0.14", "CloseSharePrice": "$0.16", "TradeVolume": 7454, "Candidate": "Trump", "Win Probability": 0.16}, {"ContractName": "Biden", "Date": "2020-11-05T16:00:00", "OpenSharePrice": "$0.86", "HighSharePrice": "$0.87", "LowSharePrice": "$0.82", "CloseSharePrice": "$0.85", "TradeVolume": 14230, "Candidate": "Biden", "Win Probability": 0.85}, {"ContractName": "Trump", "Date": "2020-11-05T16:00:00", "OpenSharePrice": "$0.16", "HighSharePrice": "$0.20", "LowSharePrice": "$0.12", "CloseSharePrice": "$0.20", "TradeVolume": 10597, "Candidate": "Trump", "Win Probability": 0.2}, {"ContractName": "Biden", "Date": "2020-11-05T17:00:00", "OpenSharePrice": "$0.85", "HighSharePrice": "$0.87", "LowSharePrice": "$0.79", "CloseSharePrice": "$0.86", "TradeVolume": 7189, "Candidate": "Biden", "Win Probability": 0.86}, {"ContractName": "Trump", "Date": "2020-11-05T17:00:00", "OpenSharePrice": "$0.20", "HighSharePrice": "$0.21", "LowSharePrice": "$0.15", "CloseSharePrice": "$0.19", "TradeVolume": 12318, "Candidate": "Trump", "Win Probability": 0.19}, {"ContractName": "Biden", "Date": "2020-11-05T18:00:00", "OpenSharePrice": "$0.86", "HighSharePrice": "$0.88", "LowSharePrice": "$0.82", "CloseSharePrice": "$0.88", "TradeVolume": 15737, "Candidate": "Biden", "Win Probability": 0.88}, {"ContractName": "Trump", "Date": "2020-11-05T18:00:00", "OpenSharePrice": "$0.19", "HighSharePrice": "$0.20", "LowSharePrice": "$0.15", "CloseSharePrice": "$0.16", "TradeVolume": 6590, "Candidate": "Trump", "Win Probability": 0.16}, {"ContractName": "Biden", "Date": "2020-11-05T19:00:00", "OpenSharePrice": "$0.88", "HighSharePrice": "$0.89", "LowSharePrice": "$0.86", "CloseSharePrice": "$0.89", "TradeVolume": 7332, "Candidate": "Biden", "Win Probability": 0.89}, {"ContractName": "Trump", "Date": "2020-11-05T19:00:00", "OpenSharePrice": "$0.16", "HighSharePrice": "$0.17", "LowSharePrice": "$0.12", "CloseSharePrice": "$0.16", "TradeVolume": 13163, "Candidate": "Trump", "Win Probability": 0.16}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Trump's odds surged immediately from 44% to 64% and got as high as 72%. Then, as it became increasingly clear that Biden would win Michigan and Wisconsin Trump's odds plummeted into the 20% range.</p>
+<p>So throughout the campaign, the market stubbornly refused to budge in reaction to the passage of time, but when a surprising event occured the market <em>wildly</em> overreacted, causing a massive swing in prices that sustained for several hours before correcting.</p>
+<p>More wild than that though, is that as of this writing the market has a Biden win at 88%, almost 2 weeks after the race was called!</p>
+<p>PredictIt does have some <a href="https://www.lesswrong.com/posts/c3iQryHA4tnAvPZEv/limits-of-current-us-prediction-markets-predictit-case-study">structural barriers</a> to translating prices precisely into probabilities, but these issues should show up in expanded bid/ask spreads. They shouldn't be enough to prevent the market from updating <em>at all</em> on the race being called for Biden by every major media source.</p>
+<p>Based on these patterns it seems reasonable to conclude:</p>
+<ol>
+<li>PredictIt markets react strongly (sometimes too strongly) to unexpected events, but don't price in the reduction of uncertainty that occurs over time.</li>
+<li>There's a certain amount of "nonreactive" money in the system, probably due to partisan bias, that can prevent a functionally certain event from reaching a reasonable price. This is probably exacerbated by PredictIt limiting the number of users who can participate on each contract and limiting how much they can bet, if enough partisans get in early, there's no way for smart people or smart money to come along later and correct their errors. </li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/2020/11/20/election-uncertainty-ii.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Data, Economics, et cetera</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" target="_blank" title="fastai"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" target="_blank" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
